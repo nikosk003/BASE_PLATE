@@ -58,3 +58,4 @@ if st.button("Predict"):
     col1, col2 = st.columns(2)
     col1.metric("Mj,Rd (kNm)", f"{M_pred:.1f}")
     col2.metric("Sj,ini (MNm/rad)", f"{S_pred:.2f}")
+    
