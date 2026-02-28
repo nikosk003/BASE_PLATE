@@ -1,0 +1,56 @@
+{
+  "feature_cols": [
+    "h_mm",
+    "b_mm",
+    "tw_mm",
+    "tf_mm",
+    "Steel_numeric",
+    "Bolt_grade_numeric",
+    "t_bp_mm",
+    "l_bp_mm",
+    "b_bp_mm"
+  ],
+  "ranges": {
+    "h_mm": [
+      80.0,
+      1008.0
+    ],
+    "b_mm": [
+      46.0,
+      310.0
+    ],
+    "tw_mm": [
+      3.8,
+      21.0
+    ],
+    "tf_mm": [
+      5.2,
+      40.0
+    ],
+    "Steel_numeric": [
+      235.0,
+      355.0
+    ],
+    "Bolt_grade_numeric": [
+      8.8,
+      10.9
+    ],
+    "t_bp_mm": [
+      10.0,
+      70.0
+    ],
+    "l_bp_mm": [
+      170.0,
+      1930.0
+    ],
+    "b_bp_mm": [
+      90.0,
+      660.0
+    ]
+  },
+  "targets": [
+    "Mj_Rd_kNm",
+    "log_Sj_ini_MNm_rad"
+  ],
+  "note": "model_logS predicts log(Sj_ini). Inference uses exp()."
+}
